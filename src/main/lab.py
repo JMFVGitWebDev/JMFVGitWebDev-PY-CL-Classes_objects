@@ -58,7 +58,7 @@ class Lightbulb:
     """
 
     # Write your code here
-    def getDescription(state):
+    def get_description(state):
         if state == True:
             return "The bulb is on"
         else:
