@@ -61,10 +61,10 @@ class Lightbulb:
     def get_description(state):
         if state is True:
             return 'The bulb is on'    
-
-        if state is False:
+        elif state is False:
             return "The bulb is off"
-
+        else:
+            return 'none'
 def create_bulb(state):
     """
     Function to create a new Lightbulb instance with the provided state.
