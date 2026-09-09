@@ -62,6 +62,8 @@ class Lightbulb:
         if state is True:
             return 'The bulb is on'    
 
+        if state is False:
+            return 'The bulb is off'
 def create_bulb(state):
     """
     Function to create a new Lightbulb instance with the provided state.
