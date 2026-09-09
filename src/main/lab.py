@@ -59,7 +59,8 @@ class Lightbulb:
 
     # Write your code here
     def get_description(state):
-        return "The bulb is on" if bool(state) is True elif bool(state) is False "The bulb is off"    
+        if state is True:
+            return 'The bulb is on'    
 
 def create_bulb(state):
     """
