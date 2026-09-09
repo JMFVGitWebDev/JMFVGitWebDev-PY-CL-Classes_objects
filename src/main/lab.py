@@ -66,10 +66,8 @@ class Lightbulb:
 
         if state:
             return 'The bulb is on'    
-        elif not state:
-            return "The bulb is off"
         else:
-            return 'none'
+            return 'The bulb is off'
 
 def create_bulb(state):
     """
