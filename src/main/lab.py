@@ -62,7 +62,7 @@ class Lightbulb:
         if state == False:
             return "The bulb is on"
         else:
-            return "The bulb is off"    
+            return "The bulb is on"    
 
 def create_bulb(state):
     """
