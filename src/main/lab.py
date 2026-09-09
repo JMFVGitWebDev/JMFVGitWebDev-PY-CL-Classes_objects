@@ -62,7 +62,7 @@ class Lightbulb:
 
         state = bool(state)
 
-        return state + " " + type(state)
+        return str(state) + " " + type(state)
 
         if state is True:
             return 'The bulb is on'    
