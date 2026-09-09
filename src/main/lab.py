@@ -61,7 +61,7 @@ class Lightbulb:
     def get_description(state):
         if state is True:
             return 'The bulb is on'    
-        elif state is not True:
+        elif state is False:
             return "The bulb is off"
         else:
             return 'none'
