@@ -66,10 +66,11 @@ class Lightbulb:
 
         if state:
             return 'The bulb is on'    
-        elif state == 'False':
+        elif not state:
             return "The bulb is off"
         else:
             return 'none'
+
 def create_bulb(state):
     """
     Function to create a new Lightbulb instance with the provided state.
