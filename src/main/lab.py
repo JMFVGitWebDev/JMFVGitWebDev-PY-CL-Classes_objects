@@ -62,7 +62,7 @@ class Lightbulb:
         if state == "True":
             return "The bulb is on"
 
-        if state == True:
+        if state is True:
             return "The bulb is on" 
 
         if state is not True:
