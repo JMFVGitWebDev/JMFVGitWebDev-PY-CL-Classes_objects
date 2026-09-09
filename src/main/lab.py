@@ -59,10 +59,6 @@ class Lightbulb:
 
     # Write your code here
     def get_description(state):
-    """
-    Returns a string describing whether the bulb is on or off 
-    based on the boolean value of 'state'.
-    """
         if state:
             return "The bulb is on"
         else:
