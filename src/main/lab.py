@@ -64,7 +64,7 @@ class Lightbulb:
 
         #return str(state) + " " + str(type(state))
 
-        if state is True:
+        if state:
             return 'The bulb is on'    
         elif state == 'False':
             return "The bulb is off"
